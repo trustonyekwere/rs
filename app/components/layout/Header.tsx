@@ -9,34 +9,34 @@ export default function Header(){
                 <nav className="flex items-center justify-between rounded-full bg-[#0B1324]/80 px-8 py-3 backdrop-blur-md border border-white/10">
                 
                     {/* Logo */}
-                    <Link href="/" className="text-lg font-bold text-white">
+                    <Link href="#hero" className="text-lg font-bold text-white">
                         <span className="text-orange-500 font-black">R.</span>Estate
                     </Link>
 
                     {/* Links */}
                     <ul className="hidden md:flex items-center gap-8 text-sm text-gray-300">
                         <li>
-                            <Link href="/" className="hover:text-white transition">
+                            <Link href="#hero" className="hover:text-white transition">
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="/about" className="hover:text-white transition">
+                            <Link href="#about" className="hover:text-white transition">
                                 About us
                             </Link>
                         </li>
                         <li>
-                            <Link href="/features" className="hover:text-white transition">
+                            <Link href="#features" className="hover:text-white transition">
                                 Feature
                             </Link>
                         </li>
                         <li>
-                            <Link href="/property" className="hover:text-white transition">
+                            <Link href="#property" className="hover:text-white transition">
                                 Property
                             </Link>
                         </li>
                         <li>
-                            <Link href="/blog" className="hover:text-white transition">
+                            <Link href="#blog" className="hover:text-white transition">
                                 Blog
                             </Link>
                         </li>
