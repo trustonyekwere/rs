@@ -1,6 +1,11 @@
 import Link from "next/link"
 
-export default function ButtonLink({ text, href }) {
+type ButtonLinkProps = {
+    text: string
+    href: string
+}
+
+export default function ButtonLink({ text, href }: ButtonLinkProps) {
     return (
         <Link
             href={href}
