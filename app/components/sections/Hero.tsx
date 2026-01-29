@@ -4,7 +4,7 @@ import ButtonLink from "../ui/Button"
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen bg-[#050B1C] pt-32">
+        <section className="relative min-h-screen bg-[#050B1C] pt-32" id="hero">
             <div className="mx-auto max-w-6xl px-6 pb-7">
 
                 {/* Main Grid */}

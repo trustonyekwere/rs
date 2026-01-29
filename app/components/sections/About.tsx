@@ -5,14 +5,14 @@ import ButtonLink from "../ui/Button"
 export default function About() {
     return (
         <>
-            <section className="relative bg-[#050B1C] pt-30 pb-15">
+            <section className="relative bg-[#050B1C] pt-30 pb-15" id="about">
                 <div className="mx-auto max-w-6xl px-6 pb-7">
                     <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-5">
 
                         <div className="relative h-100 lg:w-120 w-full overflow-hidden rounded-tl-lg rounded-tr-4xl rounded-br-lg rounded-bl-md">
                             <Image
-                                src="/building.jpg"
-                                alt="Building"
+                                src="/about.jpg"
+                                alt="About Us"
                                 fill
                                 className="object-cover"
                                 priority

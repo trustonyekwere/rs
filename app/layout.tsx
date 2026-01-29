@@ -8,7 +8,7 @@ const nunito = Nunito({
 })
 
 export const metadata: Metadata = {
-  title: "Real Estate",
+  title: "R.Estate",
   description: "A modern real estate listing platform template built with Next.js",
 };
 

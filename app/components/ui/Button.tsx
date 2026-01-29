@@ -6,6 +6,7 @@ export default function ButtonLink({ text, href }) {
             href={href}
             className="
                 inline-block
+                w-fit
                 rounded-full
                 bg-orange-500
                 px-6

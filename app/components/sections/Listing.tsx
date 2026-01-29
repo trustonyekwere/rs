@@ -23,7 +23,7 @@ const listing = [
     },
 ]
 
-const Features = () => {
+const Listing = () => {
     // Initialize state to false
     const [isActive, setIsActive] = useState(false);
 
@@ -33,15 +33,15 @@ const Features = () => {
     };
 
     return (
-        <div className="bg-white py-10">
+        <div className="bg-white py-10" id="property">
             <div className="mx-auto max-w-6xl px-6 pb-7 bg-white py-10">
 
-                <div className="flex items-center justify-between">
+                <div className="flex items-center">
                     <div>
                         <h1 className="text-5xl text-[#050B1C] font-bold mb-3">Listing we think you'll love</h1>
-                        <p className="text-gray-500 max-w-[70%]">Welcome to our exquisite collection of properties that define luxury living at it's finest. We've curated the best properties for you,</p>
+                        <p className="text-gray-500 max-w-[70%] text-lg">Welcome to our exquisite collection of properties that define luxury living at it's finest. We've curated the best properties for you.</p>
                     </div>
-                    <div>
+                    <div className="shrink-0">
                         <ButtonLink text="View All Listing" href="/listing" />
                     </div>
                 </div>
@@ -79,8 +79,8 @@ const Features = () => {
                                 <p className="text-md leading-5 text-white py-4">
                                     {listing.description}
                                 </p>
-                                <hr className="bg-gray-600" />
-                                <div className="grid grid-cols-3 mt-4">
+
+                                <div className="grid grid-cols-3 border-t border-white/10 pt-4">
                                     <div className="flex space-x-2 text-sm text-gray-400">
                                         <BathIcon size={18} />
                                         <p>6 Baths</p>
@@ -104,4 +104,4 @@ const Features = () => {
     )
 }
 
-export default Features
+export default Listing
