@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Play, HeartIcon } from "lucide-react"
+import { PlayIcon, HeartIcon } from "@heroicons/react/24/solid"
 import ButtonLink from "../ui/Button"
 
 export default function Hero() {
@@ -20,7 +20,7 @@ export default function Hero() {
                             <span className="text-orange-500">Success</span>
                         </h1>
 
-                        <p className="mb-8 max-w-lg text-gray-400 leading-7.5 text-md">
+                        <p className="mb-8 max-w-lg text-gray-400 leading-7.5 text-lg">
                         With a passion for helping you find your dream home, we're
                         committed to providing expert guidance and personalized
                         support throughout your property journey.
@@ -30,9 +30,9 @@ export default function Hero() {
                         <div className="mb-10 flex items-center gap-4">
                             <ButtonLink text="Get Started" href="/get-started" />
 
-                            <button className="flex items-center gap-2 text-sm text-gray-300 transition hover:text-white">
+                            <button className="flex items-center gap-2 cursor-pointer text-sm text-gray-300 transition hover:text-white">
                                 <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20">
-                                <Play size={16} />
+                                <PlayIcon className="size-6" />
                                 </span>
                                 Watch Demo
                             </button>
@@ -40,20 +40,20 @@ export default function Hero() {
 
                         {/* Stats */}
                         <div className="grid grid-cols-3 gap-6">
-                        <div>
-                            <h3 className="text-2xl font-semibold text-white">5K+</h3>
-                            <p className="text-sm text-gray-400">Happy Customer</p>
-                        </div>
+                            <div>
+                                <h3 className="text-2xl font-semibold text-white">5K+</h3>
+                                <p className="text-sm text-gray-400">Happy Customers</p>
+                            </div>
 
-                        <div>
-                            <h3 className="text-2xl font-semibold text-white">7K+</h3>
-                            <p className="text-sm text-gray-400">Property Sales</p>
-                        </div>
+                            <div>
+                                <h3 className="text-2xl font-semibold text-white">7K+</h3>
+                                <p className="text-sm text-gray-400">Property Sales</p>
+                            </div>
 
-                        <div>
-                            <h3 className="text-2xl font-semibold text-white">50+</h3>
-                            <p className="text-sm text-gray-400">Award</p>
-                        </div>
+                            <div>
+                                <h3 className="text-2xl font-semibold text-white">50+</h3>
+                                <p className="text-sm text-gray-400">Awards</p>
+                            </div>
                         </div>
                     </div>
 
@@ -87,7 +87,7 @@ export default function Hero() {
                                 </div>
                                 <div className="bg-white/10 rounded-full p-2 w-fit my-1">
                                     <p className="text-xs text-gray-400">
-                                        <HeartIcon size={15} className="text-red-500 fill-red-500 cursor-pointer" />
+                                        <HeartIcon className="text-red-500 size-6 fill-red-500 cursor-pointer" />
                                     </p> 
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ export default function Hero() {
                             </span>
                             <span>
                                 <Image
-                                    src="/Airbnb.png"
+                                    src="/airbnb.png"
                                     alt="Airbnb"
                                     width={120}    
                                     height={0}    
@@ -138,7 +138,7 @@ export default function Hero() {
                             </span>
                             <span>
                                 <Image
-                                    src="/Amazon.png"
+                                    src="/amazon.png"
                                     alt="Amazon"
                                     width={120}    
                                     height={0}    
@@ -148,7 +148,7 @@ export default function Hero() {
                             </span>
                             <span>
                                 <Image
-                                    src="/Netflix.png"
+                                    src="/netflix.png"
                                     alt="Netflix"
                                     width={120}    
                                     height={0}    

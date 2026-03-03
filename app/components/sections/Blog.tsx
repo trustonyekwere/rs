@@ -35,7 +35,7 @@ const Blog = () => {
                 <div className="md:flex items-center">
                     <div>
                         <p className="text-orange-500 text-lg">Our Blog</p>
-                        <h1 className="text-5xl text-[#050B1C] font-bold py-3">Browse Our Blogs</h1>
+                        <h1 className="text-3xl md:text-5xl text-[#050B1C] font-bold py-3">Browse Our Blogs</h1>
                         <p className="text-gray-500 max-w-[70%] text-lg">Welcome to our real estate blog, where we delve into a world of insights, tips, and inspiration for both buyers and sellers.</p>
                     </div>
                     <div className="shrink-0 my-5 md:my-auto">
@@ -66,7 +66,7 @@ const Blog = () => {
                                     <h1 className="text-md font-semibold text-gray-400">Plead A Style</h1>
                                 </div>
 
-                                <p className="text-xl font-bold text-[#050B1C] py-3">
+                                <p className="text-xl font-bold text-[#050B1C] py-5">
                                     {blog.description}
                                 </p>
 
@@ -75,7 +75,7 @@ const Blog = () => {
                                         <UserCircleIcon strokeWidth={1.5} size={45} />
                                     </p> 
                                     <div className="flex flex-col">
-                                        <h1 className="text-lg text-[#050B1C] font-semibold">
+                                        <h1 className="text-lg text-gray-600 font-semibold">
                                             {blog.name}
                                         </h1>
                                         <p className="text-sm text-gray-400">
@@ -90,7 +90,7 @@ const Blog = () => {
 
                 <div className="pt-10 justify-center items-center flex">
                     <div className="bg-[#050B1C] rounded-4xl w-full md:w-3xl h-55 md:h-50 px-8 justify-between flex items-center hover:scale-105 transition-all duration-400 cursor-pointer">
-                        <div className="flex items-center justify-between gap-3">
+                        <div className="flex items-center justify-between gap-3 w-full">
                             <div>
                                 <h1 className="text-2xl md:text-4xl font-bold w-full">Get A Fit Lifestyle <br /> Easily And Fast Here.</h1>
                             </div>

@@ -36,12 +36,12 @@ const Listing = () => {
         <div className="bg-white py-10" id="property">
             <div className="mx-auto max-w-6xl px-6 pb-7 bg-white py-10">
 
-                <div className="flex items-center">
+                <div className="md:flex items-center pb-8">
                     <div>
-                        <h1 className="text-5xl text-[#050B1C] font-bold mb-3">Listing we think you'll love</h1>
+                        <h1 className="text-3xl md:text-5xl text-[#050B1C] font-bold mb-3">Listing we think you'll love</h1>
                         <p className="text-gray-500 max-w-[70%] text-lg">Welcome to our exquisite collection of properties that define luxury living at it's finest. We've curated the best properties for you.</p>
                     </div>
-                    <div className="shrink-0">
+                    <div className="shrink-0 my-5 md:my-auto">
                         <ButtonLink text="View All Listing" href="/listing" />
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const Listing = () => {
                                 </div>
 
                                 <div className="flex justify-between items-center mt-2">
-                                    <h1 className="text-2xl font-semibold">
+                                    <h1 className="text-xl md:text-2xl font-semibold">
                                         {listing.title}
                                     </h1>
                                     <div className="bg-white/10 rounded-full px-2 py-2 w-fit my-1 cursor-pointer">
@@ -76,7 +76,7 @@ const Listing = () => {
                                     </div>
                                 </div>
 
-                                <p className="text-md leading-5 text-white py-4">
+                                <p className="text-md leading-3 md:leading-5 text-white py-4">
                                     {listing.description}
                                 </p>
 

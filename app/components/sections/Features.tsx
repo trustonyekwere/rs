@@ -1,18 +1,18 @@
-import {House, Coins, HandshakeIcon} from "lucide-react"
+import { HomeModernIcon, BanknotesIcon, KeyIcon } from "@heroicons/react/24/solid"
 
 const features = [
     {
-        icon: House,
+        icon: HomeModernIcon,
         title: "Buy a home",
         description: "Buying a home provides comfort and safety, and we are here to assist you in finding property for sale."
     },
     {
-        icon: Coins,
+        icon: KeyIcon,
         title: "Rent a home",
         description: "Renting a home provides flexibility and convenience, and we are here to assist you in finding rental property."
     },
     {
-        icon: HandshakeIcon,
+        icon: BanknotesIcon,
         title: "Sell a home",
         description: "Selling a home should be easy and hassle-free, and we are here to assist you in selling your property."
     },
@@ -37,7 +37,7 @@ const Features = () => {
                             >
                                 <div className="justify-center flex items-center pb-4">
                                     <div className="bg-[#0e1527] justify-center items-center flex rounded-xl h-15 w-15 p-3">
-                                        <feature.icon size={20} />
+                                        <feature.icon className="size-7" />
                                     </div>
                                 </div>
                                 <h1 className="text-2xl font-semibold">
