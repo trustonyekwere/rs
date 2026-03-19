@@ -49,7 +49,7 @@ const Blog = () => {
                         {blogs.map((blog) => (
                             <div
                                 key={blog.name}
-                                className="bg-white/60 h-auto w-full rounded-3xl justify-center items-center py-5 px-5 hover:scale-105 transition-all duration-400 cursor-pointer"
+                                className="bg-white/60 h-auto w-full rounded-2xl justify-center items-center py-5 px-5 hover:scale-103 transition-all duration-300 cursor-pointer"
                             >
                                 <div className="justify-center items-center flex">
                                     <Image
@@ -89,7 +89,7 @@ const Blog = () => {
                 </div>
 
                 <div className="pt-10 justify-center items-center flex">
-                    <div className="bg-[#050B1C] rounded-4xl w-full md:w-3xl h-55 md:h-50 px-8 justify-between flex items-center hover:scale-105 transition-all duration-400 cursor-pointer">
+                    <div className="bg-[#050B1C] rounded-4xl w-full md:w-3xl h-55 md:h-50 px-8 justify-between flex items-center hover:scale-103 transition-all duration-300 cursor-pointer">
                         <div className="flex items-center justify-between gap-3 w-full">
                             <div>
                                 <h1 className="text-2xl md:text-4xl font-bold w-full">Get A Fit Lifestyle <br /> Easily And Fast Here.</h1>

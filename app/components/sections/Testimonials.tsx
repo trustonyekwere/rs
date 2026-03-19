@@ -41,10 +41,10 @@ export default function About() {
                             {testimonials.map((testimonial) => (
                                 <div
                                     key={testimonial.title}
-                                    className="bg-[#0c142c] h-auto w-full rounded-3xl justify-center items-center py-4 px-4"
+                                    className="bg-[#0c142c] h-auto w-full rounded-2xl justify-center items-center py-4 px-4"
                                 >
                                     <div className="justify-center items-center flex mb-4">
-                                        <div className="bg-[#070d21] rounded-3xl justify-center items-center py-5 px-6">
+                                        <div className="bg-[#070d21] rounded-2xl justify-center items-center py-5 px-6">
                                             <div className="flex mb-4 space-x-1">
                                                 <Star className=" fill-amber-500 text-amber-500" size={16} />
                                                 <Star className=" fill-amber-500 text-amber-500" size={16} />

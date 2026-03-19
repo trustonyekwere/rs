@@ -33,7 +33,7 @@ const Features = () => {
                         {features.map((feature) => (
                             <div
                                 key={feature.title}
-                                className="bg-[#050B1C] h-auto w-80 rounded-3xl justify-center items-center py-10 px-6 hover:scale-105 transition-all duration-400"
+                                className="bg-[#050B1C] h-auto w-80 rounded-2xl justify-center items-center py-10 px-6 hover:scale-103 transition-all duration-300"
                             >
                                 <div className="justify-center flex items-center pb-4">
                                     <div className="bg-[#0e1527] justify-center items-center flex rounded-xl h-15 w-15 p-3">

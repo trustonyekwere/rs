@@ -62,7 +62,7 @@
                         {listing.map((listing) => (
                         <div
                             key={listing.title}
-                            className="bg-[#050B1C] h-auto w-full rounded-3xl justify-center items-center py-5 px-5 hover:scale-105 transition-all duration-400"
+                            className="bg-[#050B1C] h-auto w-full rounded-2xl justify-center items-center py-5 px-5 hover:scale-103 transition-all duration-300"
                         >
                             <div className="justify-center items-center flex">
                                 <Image
