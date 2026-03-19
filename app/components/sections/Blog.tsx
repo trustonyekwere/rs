@@ -39,7 +39,7 @@ const Blog = () => {
                         <p className="text-gray-500 max-w-[70%] text-lg">Welcome to our real estate blog, where we delve into a world of insights, tips, and inspiration for both buyers and sellers.</p>
                     </div>
                     <div className="shrink-0 my-5 md:my-auto">
-                        <ButtonLink text="View All Posts" href="/listing" />
+                        <ButtonLink text="View All Posts" href="#" />
                     </div>
                 </div>
 

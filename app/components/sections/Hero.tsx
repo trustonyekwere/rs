@@ -28,7 +28,7 @@ export default function Hero() {
 
                         {/* Buttons */}
                         <div className="mb-10 flex items-center gap-4">
-                            <ButtonLink text="Get Started" href="/get-started" />
+                            <ButtonLink text="Get Started" href="#" />
 
                             <button className="flex items-center gap-2 cursor-pointer text-sm text-gray-300 transition hover:text-white group">
                                 <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 group-hover:border-white/40">

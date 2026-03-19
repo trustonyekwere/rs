@@ -149,6 +149,8 @@ export default function Header() {
                             className="
                                 inline-block
                                 w-full
+                                ease-in-out
+                                active:scale-105
                                 text-center
                                 rounded-full
                                 bg-orange-500

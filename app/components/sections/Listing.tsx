@@ -52,7 +52,7 @@
                         </p>
                     </div>
                     <div className="shrink-0 my-5 md:my-auto">
-                        <ButtonLink text="View All Listing" href="/listing" />
+                        <ButtonLink text="View All Listing" href="#" />
                     </div>
                 </div>
 

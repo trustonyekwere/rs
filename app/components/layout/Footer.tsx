@@ -16,7 +16,7 @@ export default function Footer() {
                             </Link>
                             <p className="mt-2 text-gray-300">With a commitment to excellence, we're here to guide you through every step of your real estate journey.</p>
                             <div className="mt-4">
-                                <ButtonLink text="Get Started" href="/get-started" />
+                                <ButtonLink text="Get Started" href="#" />
                             </div>
                         </div>
                         <div>

@@ -36,7 +36,7 @@ export default function About() {
                                     <p className="text-md">Let's unlock the endless possibilities that the real estate market has to offer.</p>
                                 </div>
                             </div>
-                            <ButtonLink text="Read More" href="/read-more" />
+                            <ButtonLink text="Read More" href="#" />
                         </div>
 
                     </div>

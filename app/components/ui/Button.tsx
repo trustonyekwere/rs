@@ -14,6 +14,8 @@ export default function ButtonLink({ text, href }: ButtonLinkProps) {
                 w-fit
                 rounded-full
                 bg-orange-500
+                ease-in-out
+                active:scale-105
                 px-6
                 py-3
                 text-sm
