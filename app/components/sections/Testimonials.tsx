@@ -1,24 +1,18 @@
 "use client"
 
-
-import Image from "next/image"
-import {HeartIcon, BathIcon, RulerIcon, BedSingleIcon, UserCircleIcon, Star} from "lucide-react"
-import ButtonLink from "../ui/Button"
+import {UserCircleIcon, Star} from "lucide-react"
 
 const testimonials = [
     {
-        // icon: House,
         title: "Morgan Rogers",
         description: "Happy Customer"
     },
     {
-        // icon: Coins,
-        title: "James Barry",
+        title: "Lewis Hall",
         description: "Creative Director"
     },
     {
-        // icon: HandshakeIcon,
-        title: "David Ise",
+        title: "Erling Haaland",
         description: "CEO, FIFPRO"
     },
 ]

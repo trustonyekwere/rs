@@ -7,17 +7,14 @@
 
     const listing = [
     {
-        // icon: House,
         title: "$95,400",
         description: "Mansion 1",
     },
     {
-        // icon: Coins,
         title: "$65,800",
         description: "Mansion 2",
     },
     {
-        // icon: HandshakeIcon,
         title: "$82,500",
         description: "Bungalow 1",
     },
