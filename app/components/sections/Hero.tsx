@@ -30,8 +30,8 @@ export default function Hero() {
                         <div className="mb-10 flex items-center gap-4">
                             <ButtonLink text="Get Started" href="/get-started" />
 
-                            <button className="flex items-center gap-2 cursor-pointer text-sm text-gray-300 transition hover:text-white">
-                                <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20">
+                            <button className="flex items-center gap-2 cursor-pointer text-sm text-gray-300 transition hover:text-white group">
+                                <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 group-hover:border-white/40">
                                 <PlayIcon className="size-6" />
                                 </span>
                                 Watch Demo
