@@ -21,7 +21,7 @@ export default function About() {
 
                         <div>
                             <p className="text-orange-500 text-lg">About Us</p>
-                            <h1 className="text-5xl font-bold py-5">Your Trusted Partner in Real Estate</h1>
+                            <h1 className="text-3xl md:text-5xl font-bold py-5">Your Trusted Partner in Real Estate</h1>
                             <div className="my-5 pb-3 space-y-5 text-gray-400">
                                 <div className="flex space-x-4">
                                     <div className="text-orange-500">
