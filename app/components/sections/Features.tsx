@@ -20,8 +20,8 @@ const features = [
 
 const Features = () => {
     return (
-        <div className="bg-white flex justify-center items-center py-10 mx-auto max-w-6xl px-4 md:px-0" id="features">
-            <div className="mx-auto max-w-6xl bg-white justify-center text-center items-center m-0 py-10">
+        <div className="bg-white flex justify-center items-center py-10 mx-auto max-w-6xl" id="features">
+            <div className="mx-auto max-w-6xl bg-white justify-center text-center items-center m-0 py-10 px-4 md:px-0">
                 <h3 className="text-yellow-500 font-semibold text-lg">Our Features</h3>
                 <h1 className="text-[#050B1C] font-bold text-4xl md:text-5xl py-3">Our Special Features</h1>
                 <p className="text-gray-500 text-lg">We pride ourselves in offering a comprehensive suite of services tailored to meet your unique real estate needs.</p>
