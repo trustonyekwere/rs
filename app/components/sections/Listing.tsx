@@ -40,7 +40,7 @@
                 <div className="md:flex items-center pb-8">
                     <div>
                         <h1 className="text-3xl md:text-5xl text-[#050B1C] font-bold mb-3">
-                        Listing we think you'll love
+                            Listing we think you'll love
                         </h1>
                         <p className="text-gray-500 max-w-[70%] text-lg">
                         Welcome to our exquisite collection of properties that define
